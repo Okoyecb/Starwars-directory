@@ -106,7 +106,7 @@ class App extends Component {
             </header>
             <main className="mt-5">
                 <h1 className="text-center">
-                    Welcome to Star-Wars confederation       
+                    Welcome to Star-Wars Confederation       
                 </h1>
                 <h5>I am one with the force <br /> The force is with me</h5>
                 <h5>Star-Wars directory</h5>
