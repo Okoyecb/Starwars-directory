@@ -53,7 +53,7 @@ class App extends Component {
                     pop={planet.population}
                     diameter={planet.diameter}
                     gravity={planet.gravity}
-                    orbit={planet.orbit}
+                    orbit={planet.orbital_period}
                     rotate={planet.rotation_period}
                     terrain={planet.terrain}
                     surface={planet.surface_water}
@@ -65,12 +65,12 @@ class App extends Component {
                         name={person.name}
                         dob={person.birth_year}
                         gender={person.gender}
-                        // eye={person.eye_color}
-                        // height={person.height}
-                        // hair={person.hair_color}
-                        // weight={person.weight}
-                        // skin={person.skin_color}
-                        // ride={person.vehicles.length}
+                        eye={person.eye_color}
+                        height={person.height}
+                        hair={person.hair_color}
+                        weight={person.mass}
+                        skin={person.skin_color}
+                        ride={person.vehicles.length}
                     />
         })
         const starships = this.state.starships.map(ships => {
@@ -82,7 +82,7 @@ class App extends Component {
                     class={ships.starship_class}
                     capacity={ships.cargo_capacity}
                     price={ships.cost_in_credits}
-                    mglt={ships.mglt}
+                    // mglt={ships.mglt}
                     consume={ships.consumables}
                     crew={ships.crew}
                     rating={ships.hyperdrive_rating}
@@ -106,10 +106,10 @@ class App extends Component {
             </header>
             <main className="mt-5">
                 <h1 className="text-center">
-                    Welcome to star wars confederation       
+                    Welcome to Star-Wars confederation       
                 </h1>
-                <h5>I am one with force <br /> The force is with me</h5>
-                <h5>Star Wars directory</h5>
+                <h5>I am one with the force <br /> The force is with me</h5>
+                <h5>Star-Wars directory</h5>
                 <div className="container-fluid">
                     <Tabs defaultActiveKey="planets" fill variant="tabs" transition={false} id="noanim-tab-example">
                         <Tab eventKey="planets" title="Planets">

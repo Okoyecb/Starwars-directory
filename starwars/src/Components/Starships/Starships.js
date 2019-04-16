@@ -18,9 +18,9 @@ const starships = (props) => {
                         </div>
 
                         <div className="planet-back">
-                            <h1 className="text-center">{props.name}</h1>
+                            <h2 className="text-center">{props.name}</h2>
                             <p>Model: {props.model}</p>
-                            <p>MGLT: {props.mglt} /hr  </p>
+                            {/* <p>MGLT: {props.mglt} /hr  </p> */}
                             <p>Capacity: {props.capacity}</p> 
                             <p>Price: {props.price} credits</p>
                             <p>Manufacturer: {props.maker}</p>
@@ -29,7 +29,7 @@ const starships = (props) => {
                             <p>Class: {props.class}</p>
                             <p>Consumables: {props.consume}</p>
                             <p>Crew: {props.crew}</p>
-                            <p>Atmosphering Speed{props.speed}</p>
+                            <p>Atmosphering Speed: {props.speed}</p>
 
                         </div>
                     </div>

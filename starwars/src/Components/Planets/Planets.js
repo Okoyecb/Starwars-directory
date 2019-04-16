@@ -1,5 +1,5 @@
 import React from 'react';
-import './Planets.scss';
+import './Planets.css';
 
 
 const planets = (props)  => {
@@ -21,11 +21,11 @@ const planets = (props)  => {
                                 </div>
                             </div>
                             <div className="planet-back">
-                                <h1 className="text-center">{props.name}</h1> 
+                                <h2 className="text-center">{props.name}</h2> 
                                 <p>Temperature: {props.temp}</p> 
                                 <p>diameter: {props.diameter}</p>
                                 <p>Gravity: {props.gravity}</p>
-                                <p>Orbital Period{props.orbit}</p>
+                                <p>Orbital Period: {props.orbit}</p>
                                 <p>population: {props.pop}</p>
                                 <p>Rotation Period: {props.rotate}</p>
                                 <p>Surface Water: {props.surface}</p>

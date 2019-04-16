@@ -18,14 +18,14 @@ const people = (props) => {
                                 </div>
                             </div>
                             <div className="planet-back">
-                                <h1 className="text-center">{props.name}</h1> 
+                                <h2 className="text-center">{props.name}</h2> 
                                 <p>Gender: {props.gender}</p> 
                                 <p>date of Birth: {props.dob}</p>
-                                {/* <p>Eye Color: {props.eye}</p> */}
-                                {/* <p>Hair Color{props.hair}</p> */}
-                                {/* <p>Weight: {props.weight}</p> */}
-                                {/* <p>Skin Color: {props.skin}</p> */}
-                                {/* <p> Number of Rides {props.ride}</p> */}
+                                <p>Eye Color: {props.eye}</p>
+                                <p>Hair Color: {props.hair}</p>
+                                <p>Weight: {props.weight}</p>
+                                <p>Skin Color: {props.skin}</p>
+                                <p> Number of Rides: {props.ride}</p>
                                 {/* <p>terrin: {props.terrain}</p> */}
                             </div>
                         </div>

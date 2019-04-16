@@ -1,5 +1,4 @@
 
-
 .planet-card {
 	font-family: 'Josefin Sans', sans-serif;
     background-color: transparent;
@@ -41,4 +40,9 @@
     transform: rotateY(180deg);
     text-align: left;
 	padding-left: 20px;
+}
+
+.planet-back p{
+  font-size: 13px;
+  line-height: 7px;
 }
